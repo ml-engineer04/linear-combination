@@ -22,8 +22,8 @@ X = df.values
 
 rank = np.linalg.matrix_rank(X)
 
-print("\nMatrix rank:", rank)
-print("Ustunlar soni:", X.shape[1])
+print("\nMatrix rank::", rank)
+print("Ustunlar soni::", X.shape[1])
 
 
 # 3. Bog'liq ustunlarni topish
